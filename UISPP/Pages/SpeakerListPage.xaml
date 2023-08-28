@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="UISPP.Pages.SpeakerListPage"
+             Title="SpeakerListPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White"
+             xmlns:viewmodel="clr-namespace:UISPP.ViewModels"
+             xmlns:models ="clr-namespace:UISPP.Models"
+             x:DataType="viewmodel:SpeakerListViewModel">
+
+
+    <!--<ContentPage.BindingContext>
+        <viewmodel:SpeakerListViewModel />
+    </ContentPage.BindingContext>-->
+    
+    
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#A06464" StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="80*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" BackgroundColor="#A06464" Orientation="Horizontal">
+            <ImageButton Source="group28.png" Margin="30,0,10,0" VerticalOptions="CenterAndExpand" Clicked="ToMainPage"></ImageButton>
+            <Label Text="SCHEDULE" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"></Label>
+            <Image Source="group29.png" Margin="0,0,30,0" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"></Image>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+        <StackLayout Grid.Row="1">
+
+                <CollectionView ItemsSource="{Binding Speakers}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Speaker">
+                            <Frame  Margin="10" Padding="0" BorderColor="White" CornerRadius="25" >
+                                <StackLayout  BackgroundColor="#F3F4F6" >
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:SpeakerListViewModel}}, Path=SpeakerTappedCommand}"
+                                                              CommandParameter="{Binding .}"/>
+                                    </StackLayout.GestureRecognizers>
+                                    <Grid Padding="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="80*" />
+                                            <ColumnDefinition Width="20*" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <StackLayout Grid.Column="0">
+                                            <Label Text="{Binding Name}" TextColor="#A06464" FontAttributes="Bold" FontSize="Large"></Label>
+
+                                            <Label Text="{Binding University}" TextColor="#A06464" FontSize="Micro"></Label>
+                                            <Label Text="{Binding City}" TextColor="#A06464" FontSize="Micro"></Label>
+                                        </StackLayout>
+                                        <StackLayout Grid.Column="1">
+                                            <Image Source="path74.png" VerticalOptions="CenterAndExpand"  HorizontalOptions="EndAndExpand"></Image>
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

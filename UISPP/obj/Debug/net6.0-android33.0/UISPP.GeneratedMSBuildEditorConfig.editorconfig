@@ -1,0 +1,131 @@
+is_global = true
+build_property.TargetFramework = net6.0-android33.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UISPP
+build_property.ProjectDir = D:\Muzeu\AplicatieUVT\UISPP\UISPP\
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/AcountPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.AcountPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AcountPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AcountPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/InfoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.InfoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InfoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InfoPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/MapsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.MapsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MapsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MapsPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/MyCongressPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.MyCongressPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MyCongressPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MyCongressPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/Notifications.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.Notifications.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Notifications.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Notifications.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/PresentationListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.PresentationListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PresentationListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PresentationListPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/PresentationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.PresentationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PresentationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PresentationPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/QandAPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.QandAPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\QandAPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\QandAPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SchedulePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SchedulePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SchedulePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SchedulePage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/ScheduleSessionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.ScheduleSessionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ScheduleSessionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ScheduleSessionsPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SessionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SessionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SessionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SessionPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SocialMediaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SocialMediaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SocialMediaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SocialMediaPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SpeakerListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SpeakerListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SpeakerListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SpeakerListPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SpeakerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SpeakerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SpeakerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SpeakerPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Pages/SponsorsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Pages.SponsorsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SponsorsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SponsorsPage.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Muzeu/AplicatieUVT/UISPP/UISPP/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UISPP.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

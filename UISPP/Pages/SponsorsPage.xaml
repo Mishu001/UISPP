@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="UISPP.Pages.SponsorsPage"
+             Title="SponsorsPage"
+              Shell.NavBarIsVisible="False"
+             BackgroundColor="White">
+
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#61897F" StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="90*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" BackgroundColor="#61897F" Orientation="Horizontal">
+            <ImageButton Source="group28.png" Margin="30,0,10,0" VerticalOptions="CenterAndExpand" Clicked="ToMainPage"></ImageButton>
+            <Label Text="SPONSORS" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold"></Label>
+            <Image Source="group29.png" Margin="0,0,30,0" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"></Image>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1">
+            <Frame   Margin="10" Padding="0" BorderColor="White" CornerRadius="15" >
+                <StackLayout  BackgroundColor="#F3F4F6" >
+                    <Grid Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="80*" />
+                            <ColumnDefinition Width="20*" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Column="0">
+                            <Label Text="Lorem ipsum" TextColor="#61897F" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1">
+                            <Image Source="path74.png" VerticalOptions="StartAndExpand" HorizontalOptions="EndAndExpand"></Image>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

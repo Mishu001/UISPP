@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UISPP</name>
+    </assembly>
+    <members>
+        <member name="T:UISPP.ViewModels.AcountViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.AcountViewModel.User">
+            <inheritdoc cref="F:UISPP.ViewModels.AcountViewModel.user"/>
+        </member>
+        <member name="P:UISPP.ViewModels.AcountViewModel.Presentations">
+            <inheritdoc cref="F:UISPP.ViewModels.AcountViewModel.presentations"/>
+        </member>
+        <member name="P:UISPP.ViewModels.AcountViewModel.CodeSource">
+            <inheritdoc cref="F:UISPP.ViewModels.AcountViewModel.codeSource"/>
+        </member>
+        <member name="F:UISPP.ViewModels.AcountViewModel.presentationTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.AcountViewModel.PresentationTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.AcountViewModel.PresentationTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.AcountViewModel.PresentationTapped(UISPP.Models.Presentation)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.PresentationListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.PresentationListViewModel.Presentations">
+            <inheritdoc cref="F:UISPP.ViewModels.PresentationListViewModel.presentations"/>
+        </member>
+        <member name="F:UISPP.ViewModels.PresentationListViewModel.presentationTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.PresentationListViewModel.PresentationTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.PresentationListViewModel.PresentationTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.PresentationListViewModel.PresentationTapped(UISPP.Models.Presentation)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.PresentationViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.PresentationViewModel.Presentation">
+            <inheritdoc cref="F:UISPP.ViewModels.PresentationViewModel.presentation"/>
+        </member>
+        <member name="P:UISPP.ViewModels.PresentationViewModel.Speakers">
+            <inheritdoc cref="F:UISPP.ViewModels.PresentationViewModel.speakers"/>
+        </member>
+        <member name="F:UISPP.ViewModels.PresentationViewModel.speakerTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.PresentationViewModel.SpeakerTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.PresentationViewModel.SpeakerTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.PresentationViewModel.SpeakerTapped(UISPP.Models.Speaker)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.ScheduleSessionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.ScheduleSessionViewModel.Sessions">
+            <inheritdoc cref="F:UISPP.ViewModels.ScheduleSessionViewModel.sessions"/>
+        </member>
+        <member name="F:UISPP.ViewModels.ScheduleSessionViewModel.sessionTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.ScheduleSessionViewModel.SessionTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.ScheduleSessionViewModel.SessionTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.ScheduleSessionViewModel.SessionTapped(UISPP.Models.Session)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.SessionPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.SessionPageViewModel.Presentations">
+            <inheritdoc cref="F:UISPP.ViewModels.SessionPageViewModel.presentations"/>
+        </member>
+        <member name="P:UISPP.ViewModels.SessionPageViewModel.Speakers">
+            <inheritdoc cref="F:UISPP.ViewModels.SessionPageViewModel.speakers"/>
+        </member>
+        <member name="P:UISPP.ViewModels.SessionPageViewModel.Session">
+            <inheritdoc cref="F:UISPP.ViewModels.SessionPageViewModel.session"/>
+        </member>
+        <member name="F:UISPP.ViewModels.SessionPageViewModel.presentationTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.SessionPageViewModel.PresentationTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.SessionPageViewModel.PresentationTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.SessionPageViewModel.PresentationTapped(UISPP.Models.Presentation)"/>.</summary>
+        </member>
+        <member name="F:UISPP.ViewModels.SessionPageViewModel.speakerTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.SessionPageViewModel.SpeakerTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.SessionPageViewModel.SpeakerTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.SessionPageViewModel.SpeakerTapped(UISPP.Models.Speaker)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.SpeakerListViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:UISPP.ViewModels.SpeakerListViewModel.speakerTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.SpeakerListViewModel.SpeakerTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.SpeakerListViewModel.SpeakerTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.SpeakerListViewModel.SpeakerTapped(UISPP.Models.Speaker)"/>.</summary>
+        </member>
+        <member name="T:UISPP.ViewModels.SpeakerViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:UISPP.ViewModels.SpeakerViewModel.Speaker">
+            <inheritdoc cref="F:UISPP.ViewModels.SpeakerViewModel.speaker"/>
+        </member>
+        <member name="P:UISPP.ViewModels.SpeakerViewModel.Presentations">
+            <inheritdoc cref="F:UISPP.ViewModels.SpeakerViewModel.presentations"/>
+        </member>
+        <member name="F:UISPP.ViewModels.SpeakerViewModel.presentationTappedCommand">
+            <summary>The backing field for <see cref="P:UISPP.ViewModels.SpeakerViewModel.PresentationTappedCommand"/>.</summary>
+        </member>
+        <member name="P:UISPP.ViewModels.SpeakerViewModel.PresentationTappedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:UISPP.ViewModels.SpeakerViewModel.PresentationTapped(UISPP.Models.Presentation)"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Presentations">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Presentations" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeSource">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Presentation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Presentation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Speakers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Speakers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Sessions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Sessions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Session">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Session" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Speaker">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Speaker" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Presentations">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Presentations" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeSource">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeSource" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Presentation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Presentation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Speakers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Speakers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Sessions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Sessions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Session">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Session" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Speaker">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Speaker" generated properties.</summary>
+        </member>
+    </members>
+</doc>

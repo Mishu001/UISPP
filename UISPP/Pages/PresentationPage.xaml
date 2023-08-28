@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UISPP.Pages.PresentationPage"
+             Title="PresentationPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White"
+             xmlns:viewmodel="clr-namespace:UISPP.ViewModels"
+             xmlns:model="clr-namespace:UISPP.Models"
+             x:DataType="viewmodel:PresentationViewModel">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" BackgroundColor="#172B51">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80*" />
+                    <ColumnDefinition Width="20*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Margin="30,10,0,0">
+                    <ImageButton Source="group28.png" Margin="0,0,0,10" HorizontalOptions="StartAndExpand" Clicked="ToMainPage"></ImageButton>
+                    <Label Text="{Binding Presentation.Title}" FontSize="Medium" FontAttributes="Bold"></Label>
+                    <Line X1="0" X2="80" Stroke="white" StrokeLineCap="Round" StrokeThickness="3"></Line>
+                    <Label Text="5th of October, 2023 | 14:20" VerticalTextAlignment="Center" FontSize="Micro" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <Image Grid.Column="1" Source="group3_1.png"></Image>
+            </Grid>
+        </StackLayout>
+
+        <FlexLayout Grid.Row="1" JustifyContent="SpaceBetween" Margin="10">
+
+            <Frame Padding="0" BorderColor="White" CornerRadius="10" >
+                <StackLayout Orientation="Horizontal" Padding="8" BackgroundColor="#172B51" HorizontalOptions="StartAndExpand" >
+                    <Label Text="Sign up" Margin="0,0,50,0" VerticalTextAlignment="Center" FontSize="Large"></Label>
+                    <!--<Image Source="calendar.png"></Image>-->
+                </StackLayout>
+            </Frame>
+            <Frame Padding="0" BorderColor="White" CornerRadius="10" >
+                <StackLayout Orientation="Horizontal" Padding="8" BackgroundColor="#172B51" HorizontalOptions="EndAndExpand" >
+                    <Label Text="Export" Margin="0,0,50,0" VerticalTextAlignment="Center" FontSize="Large"></Label>
+                    <Image Source="calendar.png"></Image>
+                </StackLayout>
+            </Frame>
+        </FlexLayout>
+        <StackLayout Grid.Row="2">
+            <Label Text="General informations" TextColor="#172B51" FontSize="Large" FontAttributes="Bold" Margin="20,0,0,0"></Label>
+            <Frame Margin="10" Padding="0" BorderColor="White" CornerRadius="15" >
+                <StackLayout  BackgroundColor="#E6E6E6" Padding="10">
+                    <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                           TextColor="#172B51" FontAttributes="Bold"
+                           ></Label>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3">
+            <Label Text="Speakers" TextColor="#172B51" FontSize="Large" FontAttributes="Bold" Margin="20,0,0,0"></Label>
+            <ScrollView>
+                <StackLayout>
+                    <CollectionView ItemsSource="{Binding Speakers}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:Speaker">
+                                <Frame   Margin="10" Padding="0" BorderColor="White" CornerRadius="15" >
+                                    <StackLayout  BackgroundColor="#E6E6E6" >
+                                        <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:PresentationViewModel}}, Path=SpeakerTappedCommand}"
+                                                              CommandParameter="{Binding .}"/>
+                                        </StackLayout.GestureRecognizers>
+                                        <Grid Padding="10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="80*" />
+                                                <ColumnDefinition Width="20*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackLayout Grid.Column="0">
+                                                <Label Text="{Binding Name}" TextColor="#172B51" FontAttributes="Bold"></Label>
+                                            </StackLayout>
+                                            <StackLayout Grid.Column="1">
+                                                <Image Source="path74.png" VerticalOptions="StartAndExpand" HorizontalOptions="EndAndExpand"></Image>
+
+                                            </StackLayout>
+                                        </Grid>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+        
+
+        <FlexLayout Grid.Row="4" BackgroundColor="#172B51">
+            <Label Text="Share" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" Margin="20,0,10,0"></Label>
+            <Image Source="share_2.png" ></Image>
+        </FlexLayout>
+
+
+
+    </Grid>
+
+
+
+</ContentPage>

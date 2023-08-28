@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="UISPP.MainPage"
+             BackgroundColor="White">
+
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#172B51" StatusBarStyle="Default"></mct:StatusBarBehavior>
+    </Page.Behaviors>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="15*" />
+            <RowDefinition Height="17*" />
+            <RowDefinition Height="17*" />
+            <RowDefinition Height="17*" />
+            <RowDefinition Height="12*" />
+        </Grid.RowDefinitions>
+
+        <FlexLayout Grid.Row="0" JustifyContent="Center">
+            <Image Source="group4.png"></Image>
+        </FlexLayout>
+        <FlexLayout Grid.Row="1" JustifyContent="SpaceEvenly">
+            <StackLayout>
+                <ImageButton Source="group16.png"></ImageButton>
+                <Label Text="Selfie" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group19.png" Clicked="GoToNotifications"></ImageButton>
+                <Label Text="Notifications" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group18.png"></ImageButton>
+                <Label Text="Search" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group17.png" Clicked="GoToScan"></ImageButton>
+                <Label Text="Scan QR" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group20.png"  Clicked="GoToAcount" ></ImageButton>
+                <Label Text="Account" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+        </FlexLayout>
+        <FlexLayout Grid.Row="2">
+            <Image Source="group3.png" ></Image>
+        </FlexLayout>
+        
+        <FlexLayout Grid.Row="3" JustifyContent="SpaceEvenly" Margin="0,0,0,10" >
+            <StackLayout>
+                <ImageButton Source="group90.png" Clicked="GoToSchedule"></ImageButton>
+                <Label Text="Schedule" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group91.png" Clicked="GoToSpeakers"></ImageButton>
+                <Label Text="Speakers" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group92.png" Clicked="GoToPresentation"></ImageButton>
+                <Label Text="Presentations" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+        </FlexLayout>
+
+
+        <FlexLayout Grid.Row="4" JustifyContent="SpaceEvenly">
+            <StackLayout>
+                <ImageButton Source="group93.png" Clicked="GoToSocialMedia"></ImageButton>
+                <Label Text="Social Media" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group94.png" Clicked="GoToMaps"></ImageButton>
+                <Label Text="Maps" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group95.png"  Clicked="GoToMyCongress"></ImageButton>
+                <Label Text="My congress" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+        </FlexLayout>
+
+
+
+        <FlexLayout Grid.Row="5" JustifyContent="SpaceEvenly">
+            <StackLayout>
+                <ImageButton Source="group96.png" Clicked="GoToSponsors"></ImageButton>
+                <Label Text="Sponsors" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group97.png" Clicked="GoToQandA"></ImageButton>
+                <Label Text="QandA" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+            <StackLayout>
+                <ImageButton Source="group98.png" Clicked="GoToInfo"></ImageButton>
+                <Label Text="Info" TextColor="#172B51" HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+        </FlexLayout>
+
+
+        <FlexLayout Grid.Row="6" BackgroundColor="#172B51">
+            <Image Source="asset.png" Margin="2"></Image>
+        </FlexLayout>
+    </Grid>
+
+</ContentPage>
